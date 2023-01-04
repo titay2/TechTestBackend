@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTestBackend", "TechTestBackend\TechTestBackend.csproj", "{05FD26E5-E1F6-4BB3-A7C5-AA6282D6A79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FD26E5-E1F6-4BB3-A7C5-AA6282D6A79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FD26E5-E1F6-4BB3-A7C5-AA6282D6A79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FD26E5-E1F6-4BB3-A7C5-AA6282D6A79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FD26E5-E1F6-4BB3-A7C5-AA6282D6A79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB2E67-043E-4118-A464-28F42490EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB2E67-043E-4118-A464-28F42490EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB2E67-043E-4118-A464-28F42490EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB2E67-043E-4118-A464-28F42490EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
