@@ -24,6 +24,12 @@ Assume that the API is already running in a production environment, and has UI c
 * Do not change the database storage method from In-memory. 
 * Do not change the project namespace name
 
+## Setup Instructions
+1. Clone the repository to your local machine
+2. Create a new public repository on your GitHub account
+3. Push the cloned repository to your new public repository
+4. Continue with the test
+
 ## Limitations & Scope
 The current version of the application currently only concern one concurrent user. In order to reduce the scope of the test, this will not be counted as one of the design flaws you need to address.
 
