@@ -19,10 +19,10 @@ Documentation: https://developer.spotify.com/documentation/web-api/
 
 ## Restrictions
 Assume that the API is already running in a production environment, and has UI clients dependent on the current behavior of the application. Thus, some restrictions must be in place. 
-* Do not change the API endpoints route, GET/POST methods, input parameters names, response type, or structure. The only exception is if you find any incorrect status codes being returned, which can be considered a bug in this case. 
-* Do not delete the IApiMarkerFile 
+* Do not introduce a breaking change, for example changing the API endpoints route, GET/POST methods, input parameters names, response type, or structure.
+* Do not delete the IApiMarkerFile.
 * Do not change the database storage method from In-memory. 
-* Do not change the project namespace name
+* Do not change the project namespace name TechTestBackend.
 
 ## Setup Instructions
 1. Clone the repository to your local machine
@@ -36,4 +36,6 @@ The current version of the application currently only concern one concurrent use
 Expect this test to take around 2-4 hours to finish.
 
 ## Delivery
-Please provide a link to your repository when you are done with the test.
+Please provide a link to your repository when you are done with the test. When finishing up, please provide a short list of further improvements for continued development (if any).
+
+If your repository includes changes to the application configuration, provide clear instructions at the end of this README.md file on how to run the application.
