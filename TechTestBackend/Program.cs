@@ -11,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContextFactory<SongstorageContext>(options => options.UseInMemoryDatabase("Songstorage"));
+builder.Services.AddScoped<IApiMarker, ApiMaker>();
+
 
 var app = builder.Build();
 
