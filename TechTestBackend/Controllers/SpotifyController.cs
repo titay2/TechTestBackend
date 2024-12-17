@@ -12,9 +12,6 @@ namespace TechTestBackend.Controllers;
 public class SpotifyController : ControllerBase
 {
     //constructors are obsolete should not be used anymore
-    // public SpotifyController()
-    // {
-    // }
 
     [HttpGet]
     [Route("searchTracks")]
